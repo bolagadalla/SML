@@ -24,7 +24,8 @@ rpassword = "5.0"
 subprocess = "0.2.6"
 ansi_term = "0.12"
 rust-crypto = "^0.2"
-reqwest = { version="0.10", features=["blocking"]}
+reqwest = { version="0.10", features=["json", "blocking"]}
 fs_extra = "1.2.0"
 env_logger = "0.6.1"
 log = "0.4.14"
+async-recursion = "0.2"
